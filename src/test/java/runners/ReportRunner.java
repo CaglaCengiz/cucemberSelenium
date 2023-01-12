@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                 "json:target/json-reports/cucumber-json.json",
                 "junit:target/cucumber-xml.xml",
         "pretty"},
-        monochrome = false
+        monochrome = true
 )
 public class ReportRunner {
 }
