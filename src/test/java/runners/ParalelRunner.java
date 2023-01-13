@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
         plugin = {
                 "html:target/report-parallel/report.html"
         },
-        features = "src/test/resources/features",
+        features = "src/test/resources/features/07_Hooks.feature",
         glue = {"stepdefinitions", "hooks"}
 )
 
